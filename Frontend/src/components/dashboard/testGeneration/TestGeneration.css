@@ -1,0 +1,112 @@
+.test-generation{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(135deg, #4A90E2, #50C9C3); /* New gradient */
+}
+
+.test-generation-body{
+    display: flex;
+    flex-direction: column;
+    width: 1150px;
+    height: 100%;
+}
+
+.generate-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.test-generation-content {
+  background: linear-gradient(135deg, #B8C6DB, #F5F7FA);
+
+  width: 100%;
+  height: 620px; /* Maintain the height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px; /* Optional: Adds a modern rounded look */
+}
+
+
+.question-answers{
+    display: flex;
+    flex-direction: column;
+}
+
+.exam-question-list{
+    width: 100%;
+    height: 600px;
+    overflow: scroll;
+}
+
+.exam-container {
+    width: 100%;
+    max-width: 1100px; /* Adjust the container width as needed */
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exam-question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .exam-answers {
+    /* max-height: 200px;  */
+    /* Limit the height to make it scrollable */
+    /* overflow-y: auto;
+    padding-right: 10px; */
+     /* Add padding to avoid scroll bar overlapping text */
+  }
+  
+  .answer-option {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .answer-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .answer-text {
+    flex-grow: 1;
+  }
+  
+  .scrollable {
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #f9f9f9;
+  }
+  
+  .scrollable::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollable::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+  }
+  
+  .scrollable::-webkit-scrollbar-track {
+    background-color: #f9f9f9;
+  }
+  
+  .folder-pdf-name{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    color: #4A90E2;
+  }

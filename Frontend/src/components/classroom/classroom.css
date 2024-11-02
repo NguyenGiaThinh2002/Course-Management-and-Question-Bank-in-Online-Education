@@ -1,0 +1,130 @@
+
+div.class-body{
+  /* margin-left: 30px; */
+  width: 100%;
+  height: 100%;
+}
+
+.classroom-list {
+    /* position: fixed; */
+    display: flex;
+    flex-wrap: wrap;
+
+    /* justify-content: space-around; */
+  }
+
+  
+  .body-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+  }
+  
+  .card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 20px;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .card-content {
+    flex-grow: 1;
+    padding: 10px;
+    max-height: 70px;
+    width: 262px;
+    display: flex;
+    color: white;
+   
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* .card-classname{
+
+  } */
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #2c3e50;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .card-feature {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    text-align: center;
+    width: 262px;
+    background-color: white;
+
+    border: 1px solid #e0e0e0;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .card-classname{
+    display: flex;
+    justify-content: start;
+    font-size: 18px;
+    padding: 5px;
+  }
+  .card-description{
+    display: flex;
+    justify-content: start;
+    font-size: 18px;
+    align-items: flex-start;
+    padding: 5px;
+    /* padding: 10px; */
+  }
+
+  .class-icon{
+    font-size: 15px;
+    width: 40px;
+  }
+
+  .number-of-student-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 20px;
+    /* margin-top: 10px; */
+    margin-bottom: 70px;
+    align-items: center;
+  }
+  .number-of-student{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    color: #2c3e50;
+
+    /* padding: 20px 20px 10px 10px; */
+    /* position: absolute; */
+    /* top: 100px;
+    right: 0; */
+  }

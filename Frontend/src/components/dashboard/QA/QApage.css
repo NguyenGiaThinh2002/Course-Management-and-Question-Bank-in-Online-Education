@@ -1,0 +1,73 @@
+.QA-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 100px;
+    padding: 2px;
+}
+.folder-name{
+    font-size: medium;
+    color: #e0f2ff;
+}
+
+.QA-card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 15px;
+    width: 240px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #4A90E2, #50C9C3);
+    /* background: linear-gradient(135deg, #FFBB4A, #50C9C3); */
+
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+    color: white;
+    text-align: start;
+}
+
+.QA-card:hover {
+    transform: translateY(-10px); /* Lifts the card on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Deeper shadow */
+}
+
+.QA-card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color: rgba(255, 255, 255, 0.1); /* Light overlay */
+    border-radius: 12px;
+}
+
+.QA-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.QA-card-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f0f0f0;
+}
+
+.QA-card-footer {
+    padding: 10px 0;
+    color: #ffeb3b;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.QA-card-buttons{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}

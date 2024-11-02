@@ -1,0 +1,70 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Adjust the z-index to make sure it's above other content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* InviteModal.css */
+.invite-modal {
+    
+    max-width: 430px; /* Set a maximum width for the modal */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 17px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .user-card:hover {
+    background: #f0f0f0;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .selected-users {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .selected-user {
+    background: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 16px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .remove-icon {
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  

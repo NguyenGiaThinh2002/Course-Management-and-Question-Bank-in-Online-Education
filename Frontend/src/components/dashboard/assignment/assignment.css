@@ -1,0 +1,198 @@
+.assignment-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.add-assignment-button{
+    background-color: rgb(25,103,210);
+    /* width: 150px; */
+    border-radius: 50em;
+    margin: 10px;
+    margin-right: 100px;
+}
+
+.assignmentModal-info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* height: 160px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 100%;
+    border: 1px solid #e0e0e0;
+    margin-left: 10px;
+    overflow-x: hidden;
+    padding: 20px;
+
+    
+
+    /* position: relative; */
+}
+
+.assignTitle{
+    width: 100%;
+    /* size: 10; */
+    /* padding: 20px; */
+    
+    /* margin-right: 10px; */
+}
+
+.assignTitle:hover{
+    /* border-bottom: rgb(25,103,210) 1px solid; */
+}
+
+.assignmentModal{
+    padding-top: 15px;
+}
+
+.all-assigment-info{
+    display: flex;
+    /* border: 1px solid #e0e0e0; */
+    margin: 10px;
+ 
+    /* flex-direction: column; */
+
+
+}
+
+.assignment-other-info{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+        /* height: 150px; */
+}
+
+.han-nop{
+    width: 150px;
+}
+.diem-so{
+    width: 300px;
+}
+
+.text-field{
+    display: flex;
+    /* margin: 10px; */
+}
+
+.text-field-items{
+    margin: 5px;
+}
+
+.assignment-other-info-items{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.assignment-info-name{
+    margin: 10px;
+    font-weight: 500;
+}
+
+
+.list-assignment-container{
+    width:  800px;
+    justify-content: center;
+}
+
+.assignment-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.this-date{
+    display: flex;
+    align-items: center;
+    /* padding-right: 5px; */
+}
+
+.icon-button{
+    font-size: large;
+}
+ .assignment-options-menu{
+    /* position: relative; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    border-radius: 4px;
+    overflow: hidden;
+ }
+
+ .assignment-menu-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+ }
+ .assignment-menu-option{
+    background: none;
+    border: none;
+    /* padding: 10px 20px; */
+    /* margin-left: 5px; */
+    width: 95px;
+    text-align: left;
+    cursor: pointer;
+
+    color: #333;
+ }
+
+.accordion {
+    width: 100%;
+  }
+  
+  .accordion-item {
+    border: 1px solid #ddd;   
+    margin-bottom: 15px;
+    border-radius: 20px;
+  }
+  
+  .accordion-title {
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    border-top: 0px; 
+    border-radius: 20px;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    background-color: #fff;
+
+  }
+
+  .checklist-icon{
+    width: 30px;
+  }
+  
+  .title-checklist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .assignment-common-button{
+    /* background-color: #f0f0f0; */
+    background-color: white;
+    color: rgb(95, 99, 104);
+    font-size: 13px;
+    width: 150px;
+    margin: 10px;
+    /* color: #1a73e8; */
+}
+button.assignment-common-button:hover{
+    background-color: rgba(53, 53, 51, 0.1);
+    /* background-color: blue; */
+    border-radius: 3px;
+}

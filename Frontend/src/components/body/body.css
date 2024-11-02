@@ -1,0 +1,24 @@
+.this-body{
+    /* width: 2000px; */
+    width: 100%;
+    height: 100%;
+    /* width: 1440px!important; */
+}
+.body-overlay{
+    display: flex;
+    flex-direction: row; 
+    /* width: 100%; */
+    /* width: calc(100% - 270px);     */
+    /* align-items: center; */
+    justify-content: start;
+    /* margin-left: 270px; */
+    transition: 0.3s;
+    overflow-wrap: normal;
+}
+.body-overlay.open{
+    /* width: calc(100% - 80px);    */
+    /* margin-left: 80px; */
+}
+
+/* Card.css */
+

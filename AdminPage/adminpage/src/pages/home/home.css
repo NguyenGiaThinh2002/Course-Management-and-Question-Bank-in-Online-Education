@@ -1,0 +1,19 @@
+.home{
+    max-width: 1440px;
+    overflow-x: hidden; /* This will hide horizontal overflow */
+
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.home-container{
+    /* display: grid; */
+    /* display: inline-block; */
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    /* grid-template-columns: 270px 1fr; */
+}

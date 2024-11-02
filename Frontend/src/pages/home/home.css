@@ -1,0 +1,126 @@
+.home{
+    max-width: 1440px;
+    overflow-x: hidden; /* This will hide horizontal overflow */
+
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.home-container{
+    /* display: grid; */
+    /* display: inline-block; */
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    /* grid-template-columns: 270px 1fr; */
+}
+
+
+.ChatBot {
+  display: flex; /* Center the chat container horizontally */
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh;  */
+  background-color: #f5f5f5; /* Light gray background */
+  font-family: Arial, sans-serif; /* Basic font stack */
+}
+
+.chat-container {
+  width: 400px; /* Adjust width as desired */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  padding: 20px;
+  position: fixed; /* Position for absolute control */
+  bottom: 20px; /* Position from bottom */
+  right: 120px; /* Position from right */
+  transition: transform 0.2s ease-in-out; /* Add smooth transition for hiding/showing */
+  transform: translateX(100%); /* Initially hidden by shifting offscreen */
+  visibility: hidden;
+}
+
+.chat-container.active {
+  visibility: inherit;
+  transform: translateX(0); /* Show the chat container */
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll; /* Enable scrolling for long chat histories */
+  height: 400px; /* Set message area height */
+  margin-bottom: 15px; /* Add spacing between messages and input area */
+}
+
+.message {
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: inline-block;
+  clear: both; /* Prevent floating next to each other */
+}
+
+.message.user { /* Styling for user messages */
+  background-color: #f5f5f5; /* Light gray */
+  color: #666;
+  text-align: right;
+}
+
+.message.bot { /* Styling for chatbot messages */
+
+  background-color: #dfefff; /* Light blue */
+  color: #333;
+  text-align: left;
+}
+
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  flex: 1; /* Expand input field to fill available space */
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out; /* Add hover effect */
+}
+
+.input-container button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+/* Icon Styling */
+
+.show-hide-icon {
+  position: fixed; /* Position for absolute control */
+  bottom: 50px; /* Position from bottom */
+  right: 50px; /* Position from right */
+  cursor: pointer; /* Set cursor to pointer on hover */
+  transition: transform 0.2s ease-in-out; /* Add smooth transition for rotation */
+}
+
+.show-hide-icon img {
+  width: 50px; /* Adjust icon size as desired */
+  height: 50px; /* Adjust icon size as desired */
+}
+
+.chat-container.active .show-hide-icon img {
+  transform: rotate(180deg); /* Rotate icon on chat open */
+}

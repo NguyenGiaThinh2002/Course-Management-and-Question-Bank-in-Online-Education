@@ -1,0 +1,53 @@
+/* Navbar.css */
+.Login{
+    max-width: 1440px;
+    max-height: 100vh;
+}
+.navbar {
+    background-color: white;
+    overflow: hidden;
+        /* align-items: center; */
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: block;
+
+  }
+  
+  .nav-link:hover {
+    /* background-color: #555; */
+  }
+
+  .header-nav-items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .class2Image{
+    width: 100%;
+    height: 90%;
+  }
+
+  .class3Image{
+    width: 150px;
+  }
+  .signInDiv{
+    /* padding-top: 8px; */
+  }

@@ -1,0 +1,146 @@
+/* Base styles */
+header {
+  /* background-color: #00274e; */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-end; 
+  align-items: center;
+  justify-content: space-between;
+  height: 27px;
+  /* position: relative; */
+  
+}
+
+.classroom-photo{
+  width: 30px;
+  margin-left: 35px;
+  margin-right: 10px;
+  /* border-radius: 50rem; */
+
+}
+
+.thinh{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* header.css */
+.dropdown-container {
+  position: relative;
+}
+
+.add-classroom{
+  /* align-items: center;
+  padding-bottom: 10px; */
+  font-size: 20px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  /* z-index: 900; */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.dropdown button {
+  margin-top: 8px;
+}
+
+
+/* Logo area */
+.photo{
+  width: 38px;
+  height: 38px;
+  border-radius: 50em;
+
+}
+
+/* Navigation area */
+.nav {
+  display: flex;
+  /* justify-content: right; */
+  flex-direction: row;
+  /* justify-items: flex-end; */
+  list-style: none;
+  /* width: 312px;
+  height: 70px; */
+  margin: 0;
+}
+
+.ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav li {
+  list-style: none;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+.button{
+  color: #5f6368;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.nav a:hover {
+  
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.sidebar-toggle {
+  order: -1; /* Move the sidebar-toggle to the beginning */
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.lop-hoc{
+  display: flex;
+  /* padding-right: 10px; */
+}
+
+.ten-lop-hoc{
+  margin-left: 10px;
+}
+
+
+.search-icon{
+  /* font-size: large; */
+  display: flex;
+  align-items: center;
+  /* width: 50px; */
+  height: 50px;
+}
+
+.search-icon:hover {
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}

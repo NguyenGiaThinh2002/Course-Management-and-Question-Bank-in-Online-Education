@@ -1,0 +1,27 @@
+.file-content-inside{
+    display: flex;
+    align-items: center;
+  }
+
+.upload-save-close{
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-file-label-edit{
+  display: inline-block;
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Text color */
+  cursor: pointer;
+  border: none;
+  margin-right: 10px;
+  padding: 15px;
+  border-radius: 50rem;
+  width: 20px;
+  height: 20px;
+}
+.highlightIcon{
+  margin: 15px;
+  /* color: rgb(129, 129, 129); */
+  color: red;
+}

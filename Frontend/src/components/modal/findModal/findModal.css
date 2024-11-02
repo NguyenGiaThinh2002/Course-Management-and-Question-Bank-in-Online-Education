@@ -1,0 +1,21 @@
+.join-group {
+    width: 300px; /* Maintains original width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: none; /* Remove default border */
+    border-radius: 20px;
+    cursor: pointer; /* Indicate interactivity on hover */
+    background-image: linear-gradient(to right, #4CAF50, #2196F3); /* Gradient background */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Slight bottom shadow */
+    color: white; /* Text color for contrast */
+    font-weight: bold; /* Emphasize the text */
+    text-align: center; /* Center text alignment */
+    transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  .join-group:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
+  }

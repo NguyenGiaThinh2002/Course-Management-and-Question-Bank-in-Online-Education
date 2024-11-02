@@ -1,0 +1,272 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for asking",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "tạm biệt",
+      "patterns": [
+        "Tạm biệt",
+        "Hẹn gặp lại",
+        "Chào tạm biệt",
+        "Chúc mừng bạn, tạm biệt",
+        "Hẹn lần sau"
+      ],
+      "responses": [
+        "Hẹn gặp lại bạn!",
+        "Chúc bạn một ngày vui vẻ!",
+        "Tạm biệt! Hẹn gặp lại bạn sớm nhé."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "context": [""]
+    },
+    {
+      "tag": "cảm ơn",
+      "patterns": [
+        "Cảm ơn",
+        "Cảm ơn bạn",
+        "Hữu ích thật",
+        "Tuyệt vời, cảm ơn",
+        "Cảm ơn đã giúp tôi"
+      ],
+      "responses": ["Vui lòng được giúp đỡ!", "Bất cứ lúc nào!", "Không có gì"],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": [""]
+    },
+
+    {
+      "tag": "tùy chọn",
+      "patterns": [
+        "Tôi có thể giúp gì cho bạn?",
+        "Bạn có thể làm gì để giúp tôi?",
+        "Bạn cung cấp những hỗ trợ gì?",
+        "Bạn có thể giúp tôi như thế nào?",
+        "Dịch vụ hỗ trợ của bạn là gì?"
+      ],
+      "responses": [
+        "Tôi có thể hướng dẫn bạn về việc tạo lớp học, thêm thông báo, chỉnh sửa lớp học và nhiều hơn nữa"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "chao",
+      "patterns": [
+        "Chào bạn",
+        "Bạn khỏe không?",
+        "Có ai đó ở đó không?",
+        "Chào!",
+        "Xin chào",
+        "Chào buổi sáng/chiều/tối"
+      ],
+      "responses": [
+        "Chào bạn, cảm ơn vì đã hỏi thăm!",
+        "Rất vui được gặp lại bạn!",
+        "Chào bạn, mình có thể giúp gì được?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Chức Năng",
+      "patterns": [
+        "Những chức năng trong website này là gì",
+        "Các chức năng trong trang web này là gì",
+        "Website này có những chức năng gì",
+        "Tôi có thể làm gì trong trang web này"
+      ],
+      "responses": [
+        "Nếu bạn là học sinh: bạn có thể tìm kiếm lớp học, xem thông báo, comment và nộp bài tập. Nếu bạn là giáo viên: bạn có thể tạo lớp học, thêm học sinh, tạo thông báo, tạo bài tập, chấm điểm và chỉnh sửa."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "tạo bài tập",
+      "patterns": [
+        "Làm sao để tạo lớp học",
+        "Tạo lớp học như thế nào",
+        "Chỉ tôi cách tạo lớp học",
+        "Cách tạo lớp học",
+        "Tạo lớp học"
+      ],
+      "responses": [
+        "Để tạo lớp học: Bạn cần nhấn vào biểu tượng dấu cộng bên trên phải trang web, và nhập các thông tin cần thiết, sau đó nhấn tạo lớp."
+      ],
+      "context": [""]
+    },
+    {
+        "tag": "tạo thông báo",
+        "patterns": [
+          "Làm sao để tạo thông báo",
+          "Tạo thông báo như thế nào",
+          "Chỉ tôi cách tạo thông báo",
+          "Cách tạo thông báo",
+          "Tạo thông báo"
+        ],
+        "responses": [
+          "Để tạo thông báo: Bạn cần chọn vào lớp học, nhấn vào khung tạo thông báo, bạn cần nhập nội dung trước khi đăng bài."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "tạo bài tập",
+        "patterns": [
+          "Làm sao để tạo bài tập",
+          "Tạo bài tập như thế nào",
+          "Chỉ tôi cách tạo bài tập",
+          "Cách tạo bài tập",
+          "Tạo bài tập"
+        ],
+        "responses": [
+          "Để tạo bài tập: Bạn cần chọn vào lớp học, nhấn vào thanh Bài Tập Trên Lớp, sau đó bạn cần nhấn vào nút tạo bài tập và nhập nội dung trước khi tạo."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "thêm học sinh",
+        "patterns": [
+          "Làm sao để thêm học sinh",
+          "thêm học sinh như thế nào",
+          "Chỉ tôi cách thêm học sinh",
+          "Cách thêm học sinh",
+          "thêm học sinh"
+        ],
+        "responses": [
+          "Để thêm học sinh: Bạn cần chọn vào lớp học, nhấn vào thanh Mọi Người, sau đó bạn cần nhấn vào biểu tạo con người và +, sau đó bạn có thể thêm học sinh nếu học sinh đã tham gia vào hệ thống."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "chấm điểm",
+        "patterns": [
+          "Làm sao để chấm điểm",
+          "chấm điểm như thế nào",
+          "Chỉ tôi cách chấm điểm",
+          "Cách chấm điểm",
+          "chấm điểm"
+        ],
+        "responses": [
+          "Để chấm điểm: Bạn cần chọn vào lớp học, nhấn vào thanh Điểm, sau đó bạn nhấn vào thanh chưa chấm điểm, nhấn vào bài tập của học sinh và chấm điểm."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "xem điểm",
+        "patterns": [
+          "Làm sao để xem điểm của học sinh",
+          "xem điểm học sinh như thế nào",
+          "Chỉ tôi cách xem điểm học sinh",
+          "Cách xem điểm học sinh",
+          "xem điểm học sinh"
+        ],
+        "responses": [
+          "Để xem điểm học sinh: Bạn cần chọn vào lớp học, nhấn vào thanh Điểm, sau đó bạn nhấn vào thanh học sinh, nhấn vào từng học sinh để xem các bài tập và điểm của học sinh."
+        ],
+        "context": [""]
+      },
+    {
+      "tag": "Về trang web",
+      "patterns": [
+        "Trang web này dùng để làm gì",
+        "Tại sao phải sử dụng trang web này",
+        "Website này được tạo ra nhằm mục đích gì"
+      ],
+      "responses": [
+        "Trang web này được tạo ra nhằm mục đích phục vụ giáo viên và học sinh trong quá trình học tập, trang web dùng để quản lý các lớp học, hỗ trợ tương tác giữa giáo viên và học sinh."
+      ],
+      "context": [""]
+    },
+    {
+        "tag": "cài đặt",
+        "patterns": [
+          "Thanh cài đặt dùng để làm gì",
+          "Thanh cài đặt được tạo ra nhằm mục đích gì"
+        ],
+        "responses": [
+          "Thanh cài đặt này được tạo ra nhằm mục đích chỉnh sửa giao diện trang web theo ý muốn, bạn có thể chọn màu theo sở thích và lưu lại nếu muốn."
+        ],
+        "context": [""]
+      },
+    {
+      "tag": "Gia Thịnh",
+      "patterns": [
+        "Thịnh có đẹp trai không?",
+        "Gia Thịnh trông như thế nào",
+        "Thịnh đẹp trai"
+      ],
+      "responses": [
+        "Thịnh rất đẹp trai",
+        "Thịnh đẹp trai thanh lịch vô địch khắp vũ trụ",
+        "Thịnh quá đẹp trai"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Lưu trữ",
+      "patterns": ["Tôi có thể xoá lớp học không", "Làm sao để xoá lớp học", "Xoá lớp học như thế nào"],
+      "responses": ["Bạn không thể xoá lớp học, nhưng bạn có thể lưu trữ lớp học và khôi phục khi muốn tái sử dụng lớp học."],
+      "context": [""]
+    },
+    {
+      "tag": "Tái sử dụng",
+      "patterns": [
+        "Làm sao để lưu trữ lớp học",
+        "Lưu trữ lớp học như thế nào",
+        "Cách lưu trữ lớp học"
+      ],
+      "responses": ["Bạn có thể lưu trữ lớp học bằng cách chọn dấu X bên dưới phải của mỗi lớp học bạn cần lưu trữ, sau đó bạn nên đọc hướng dẫn trước khi lưu trữ."],
+      "context": ["search_hospital_by_params"]
+    },
+    {
+      "tag": "search_hospital_by_params",
+      "patterns": [],
+      "responses": ["Please provide hospital type"],
+      "context": ["search_hospital_by_type"]
+    },
+    {
+      "tag": "nhu",
+      "patterns": ["con nhu khung", "con nhu no khung thiet"],
+      "responses": ["con nhu khung", "con nhu no khung thiet", "dung vay"],
+      "context": [""]
+    },
+    {
+      "tag": "huong",
+      "patterns": ["con nhu huong", "con nhu no huong thiet"],
+      "responses": ["con huong khung", "con huong no khung thiet", "dung vay"],
+      "context": [""]
+    }
+  ]
+}

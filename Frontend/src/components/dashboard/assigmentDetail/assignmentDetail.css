@@ -1,0 +1,110 @@
+.AssignmentDetail-container{
+    width: 100%;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.AssignmentDetail-allComponent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.AssignmentDetail-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* width: 60%; */
+    width: 700px;
+}
+.AssignmentDetail-commit-comment{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    /* width: 40%; */
+    width: 350px;
+}
+
+.assignmentTitle{
+    display: flex;
+    font-size: 30px ;
+    color: rgb(35, 121, 249);
+    margin-bottom: 15px;
+}
+
+.gradeAndDueday{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-bottom: 10px ;
+    border-bottom: 1px solid rgb(35, 121, 249);
+}
+
+.AssignmentDetail-commit{
+    margin: 10px;
+    padding: 20px;
+    /* background-color: #9b59b6; */
+    border-radius: 8px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.AssignmentDetail-comment{
+    margin: 10px;
+    padding: 20px;
+    /* background-color: #9b59b6; */
+    border-radius: 8px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-Submission{
+    background-color: white;
+    color: rgb(25, 103, 210);
+    font-size: 14px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    border: solid 1px black ;
+    width: 250px!important;
+    margin: 10px;
+}
+
+.mark-Submission{
+    background-color: white;
+    color: rgb(25, 103, 210);
+    font-size: 14px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    border: solid 1px black ;
+    width: 250px;
+    margin: 10px;
+}
+.sendIcon{
+    margin-left: 10px;
+}
+
+.sendIcon:hover{
+    /* width: 40px;
+    height: 40px; */
+    background-color: rgba(77, 73, 73, 0.1);
+    border-radius: 50rem;
+}
+
+.clear-icon{
+    /* margin-left: 7px; */
+    margin-top: 7px;
+    /* color: red; */
+    color: white;
+}
+
+.clear-icon:hover{
+    /* color: rgb(209, 209, 209); */
+    color: red;
+    /* background-color: rgba(77, 73, 73, 0.1);
+        border-radius: 50rem; */
+}
+
+.clear-file-icon{
+    color: red;
+        margin-left: 7px;
+}

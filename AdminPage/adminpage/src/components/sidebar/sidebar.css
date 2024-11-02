@@ -1,0 +1,109 @@
+/* good color
+  Soft Blue (#6FC7E1):
+  Sunny Yellow (#FFD700):
+  Light Green (#A2D729):
+  Light Orange (#FFA07A):
+  Soft Purple (#B19CD9):
+  Light Gray (#D3D3D3):
+ */
+ .sidebar {
+    top: 67px; /* Added px to define the unit */
+    left: 0;
+    width: 270px;
+    height: 100%; /* Set default height to 1200px */
+    min-height: 1200px; /* Allow height to be 100% only if it's larger than 1200px */
+    background-color: #00274e;
+    /* color: #6FC7E1; */
+    overflow-x: hidden; 
+    overflow-y: auto;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    /* z-index: 10; */
+  }
+  @media (min-height: 1200px) {
+    .sidebar {
+      height: 1200px; /* Set height to 100% only if it's larger than 1200px */
+    }
+  }
+  .sidebar-text{
+    margin: 30px;
+    color: aliceblue;
+    border-bottom: white solid 1px;
+    white-space: nowrap; 
+  }
+  
+    .sidebar.open {
+      left: 0;
+      width: 80px;
+      overflow-x: hidden;
+      height: 100%; /* Set default height to 1200px */
+      min-height: 1200px; /* Allow height to be 100% only if it's larger than 1200px */
+      /* overflow-y: auto;  */
+  
+    }
+  
+    @media (min-height: 1200px) {
+      .sidebar.open {
+        height: 1200px; /* Set height to 100% only if it's smaller than 1200px */
+      }
+    }
+    .sidebar:hover {
+      width: 270px;
+      overflow-x:visible;
+    }
+  
+    .icon {
+      margin-right: 10px; /* Adjust spacing between icon and text */
+    }
+    /* .icon{
+      position: absolute;
+    } */
+  
+  
+    .sidebar-header {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px;
+    }
+    
+    /* .close-button {
+      background: none;
+      border: none;
+      font-size: 24px;
+      color: #fff;
+      cursor: pointer;
+    } */
+    
+    .sidebar-content {
+      padding: 20px;
+    }
+    
+    .nav-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .nav-links li {
+      margin-bottom: 15px;
+    
+    }
+    
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      /* color:  black; */
+      font-size: 18px;
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      
+    }
+    
+    .nav-links a:hover {
+      /* background-color: #333; */
+  
+    }
+  

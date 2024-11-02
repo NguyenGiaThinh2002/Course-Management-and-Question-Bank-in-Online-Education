@@ -1,0 +1,69 @@
+.addClass-modal-overlay {
+    z-index: 6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addClass-model-content {
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f0f0f0;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.addClass-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.addClass-item {
+    margin: 10px;
+}
+
+/* Add styling to form elements as needed */
+/* .addClass-form input, */
+/* .addClass-form textarea, */
+.addClass-form button {
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333; /* Adjust text color to match */
+}
+
+input.this-input{
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333; /* Adjust text color to match */
+}
+
+
+.addClass-form button {
+    background-color: #3498db;
+    /* color: #fff; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addClass-form button:hover {
+    background-color: #2980b9;
+}

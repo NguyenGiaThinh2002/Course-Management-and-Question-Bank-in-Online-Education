@@ -1,0 +1,18 @@
+.container_form{
+    background-image: url('../../assets/class2.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 15px;
+
+}
+form{
+    margin: auto;
+    max-width: 100%;
+    background-color: white;
+    padding: 36px;
+    box-shadow: 2px 2px 20px rgb(234, 234, 234);
+}

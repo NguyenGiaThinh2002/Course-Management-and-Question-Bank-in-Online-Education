@@ -1,0 +1,75 @@
+/* Style for the file input */
+
+.custom-container-edit{
+  /* display: block; */
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    height: 100%;
+    margin-top: 80px;
+}
+input[type="file"] {
+    display: none; /* Hide the default file input */
+  }
+
+  .custom-file-label {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Text color */
+    cursor: pointer;
+    border: none;
+    border-radius: 50em;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+
+  }
+  .custom-input-edit{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 20px; */
+  }
+  /* Style for the Save Content button */
+  button {
+    padding: 10px 15px;
+    background-color: #28a745; /* Green button color */
+    color: #fff; /* Text color */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button:disabled {
+    background-color: #6c757d; /* Grayed out color for disabled state */
+    cursor: not-allowed;
+  }
+  
+  /* Style for the  button */
+  button.close-btn {
+    padding: 10px 15px;
+    background-color: #dc3545; /* Red button color */
+    color: #fff; /* Text color */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button.close-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  .thisisQuill{
+    display: block;
+    height: 200px;
+  }
+
+  .myQuill-button-edit{
+    /* margin-top: 20px; */
+
+  }
+
+  /* .mr-2{
+  
+  } */

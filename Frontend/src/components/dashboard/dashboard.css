@@ -1,0 +1,48 @@
+/* YourComponent.css */
+
+.body-container{
+    width: 100%;
+}
+/* YourComponent.css */
+.nav-bar {
+display: flex;
+padding: 10px;
+border-bottom: 2px solid lightgrey; /* Add light grey border at the bottom */
+}
+
+.nav-item {
+color: grey; 
+margin: 7px 25px;
+font-size: 15px;
+
+cursor: pointer;
+position: relative; 
+}
+
+.nav-item::after {
+content: '';
+display: block;
+height: 2px;
+width: 0;
+background-color: #3498db;
+transition: width 0.3s; /* Add smooth width transition for the blue line */
+}
+
+.nav-item:hover::after {
+width: 100%; /* Expand the blue line on hover */
+color: #3498db;
+background-color: #3498db;
+}
+
+.nav-item.selected::after {
+width: 100%; /* Expand the blue line for the selected item */
+color: #3498db;
+background-color: #3498db;
+}
+.nav-item.selected {
+color: #3498db; /* Set the text color to blue for the selected item */
+}
+.nav-item:hover {
+color: #3498db; /* Change the text color to a brighter blue on hover */
+
+}

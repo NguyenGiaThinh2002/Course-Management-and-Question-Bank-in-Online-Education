@@ -1,0 +1,90 @@
+.assignment-Quill{
+    display: block;
+    height: 300px;
+}
+
+/* Style for the file input */
+.custom-input{
+  align-items: center;
+  margin-top: 10px;
+}
+.custom-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    height: 40px;
+    margin-top: 80px;
+}
+input[type="file"] {
+    display: none; /* Hide the default file input */
+  }
+
+  .custom-file-label {
+    display: inline-block;
+    padding: 12px 20px; /* Increased padding for a more substantial feel */
+    background-color: #5f27cd; /* Modernized color (Deep Purple) */
+    color: #fff; /* Text color */
+    cursor: pointer;
+    border: none;
+    border-radius: 50em; /* Retained rounded shape */
+    margin-right: 10px;
+    font-size: 16px; /* Increased font size for better readability */
+    font-family: "JetBrains Mono", monospace; /* Modern font style */
+    transition: background-color 0.3s, transform 0.2s; /* Added transition effects */
+}
+
+/* Hover Effect */
+.custom-file-label:hover {
+    background-color: #4a1b99; /* Darker purple on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Active Effect */
+.custom-file-label:active {
+    transform: translateY(1px); /* Slightly less lift on active */
+    background-color: #6a11cb; /* Slightly lighter purple on active */
+}
+
+
+  .custom-input{
+    display: flex;
+    flex-direction: row;
+  }
+  /* Style for the Save Content button */
+  button {
+    padding: 10px 15px;
+    background-color: #28a745; /* Green button color */
+    color: #fff; /* Text color */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button:disabled {
+    background-color: #6c757d; /* Grayed out color for disabled state */
+    cursor: not-allowed;
+  }
+  
+  /* Style for the  button */
+  button.close-btn {
+    padding: 10px 15px;
+    background-color: #dc3545; /* Red button color */
+    color: #fff; /* Text color */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button.close-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+
+  .myQuill-button{
+    margin-top: 6px;
+
+  }
+
+  /* .mr-2{
+  
+  } */
