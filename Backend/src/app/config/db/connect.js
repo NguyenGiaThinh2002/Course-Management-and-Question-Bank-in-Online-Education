@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const uri = "mongodb+srv://thinhlatoi4:thinhlatoi2@cluster0.bltd15j.mongodb.net/Ctu-Classroom-db"
+const uri = ""
 async function connect() {
     try {
         await mongoose.connect(uri);
