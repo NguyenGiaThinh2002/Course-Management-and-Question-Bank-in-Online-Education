@@ -14,7 +14,7 @@ import google.generativeai as genai
 
 #genai.configure(api_key=os.environ["AIzaSyBaDHbFRViW4BQ4MQzpDUmXVzfwUoFywoE"])
 # Directly setting the API key in the script (for testing purposes)
-os.environ["GEMINI_API_KEY"] = 'AIzaSyBaDHbFRViW4BQ4MQzpDUmXVzfwUoFywoE'
+os.environ["GEMINI_API_KEY"] = ''
 
 # Configure the Google Generative AI SDK with your API key
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
